@@ -37,14 +37,14 @@ idebug_function_call_stack();
 
 ```
 array(4) {
-  [0]=>
-  string(2) "f1"
-  [1]=>
-  string(2) "f2"
-  [2]=>
-  string(2) "f3"
-  [3]=>
-  string(2) "f4"
+    [0]=>
+    string(2) "f1"
+    [1]=>
+    string(2) "f2"
+    [2]=>
+    string(2) "f3"
+    [3]=>
+    string(2) "f4"
 }
 ```
 
