@@ -27,7 +27,7 @@ idebug_function_call_stack();
         f4();
     }
     function f4(){
-        idebug_function_call_stack();
+        var_dump(idebug_function_call_stack());
     }
     f1();
 ?>
