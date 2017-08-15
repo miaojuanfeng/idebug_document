@@ -33,7 +33,7 @@ idebug_class_table();
             return $this->age;
         }
     }
-    idebug_class_table();
+    var_dump(idebug_class_table());
 ?>
 ```
 
