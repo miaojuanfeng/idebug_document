@@ -8,7 +8,7 @@
 /**
 * Print constant table
 *
-* @return   null
+* @return   array
 */
 idebug_constant_table();
 ```
