@@ -41,9 +41,10 @@ array(3) {
     int(20)
 }
 // 输出全局符号表
-active_symbol_table: Array(8) { 
+array(8) {
     // 省略内核变量...
-    'g' => int(120)
+    ["g"]=>
+    int(120)
 }
 ```
 
