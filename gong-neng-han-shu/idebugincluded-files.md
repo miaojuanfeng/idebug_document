@@ -8,7 +8,7 @@
 /**
 * Print included files table
 *
-* @return   null
+* @return   array
 */
 idebug_included_files();
 ```
