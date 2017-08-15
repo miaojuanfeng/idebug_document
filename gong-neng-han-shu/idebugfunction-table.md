@@ -22,7 +22,7 @@ idebug_function_table();
         $b = 20;
         idebug_active_symbol_table();
     }
-    idebug_function_table();
+    var_dump(idebug_function_table());
 ?>
 ```
 
