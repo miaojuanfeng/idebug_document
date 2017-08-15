@@ -32,10 +32,13 @@ idebug_active_symbol_table();
 
 ```
 // 输出当前符号表
-active_symbol_table: Array(3) { 
-    'name' => string(12) "miaojuanfeng", 
-    'a' => string(6) "idebug", 
-    'b' => int(20)
+array(3) {
+    ["name"]=>
+    string(12) "miaojuanfeng"
+    ["a"]=>
+    string(6) "idebug"
+    ["b"]=>
+    int(20)
 }
 // 输出全局符号表
 active_symbol_table: Array(8) { 
