@@ -35,9 +35,10 @@ array(969) {
     [1]=>
     string(14) "func_num_args"
     // 省略其他内核函数...
-    'mysqli_affected_rows', 
-    'mysqli_autocommit', 
-    'mysqli_character_set_name', 
+    [637]=>
+    string(8) "is_long"
+    [638]=>
+    string(9) "is_float"
     // 用户自定义函数
     [968]=>
     string(6) "hello"
