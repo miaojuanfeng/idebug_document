@@ -18,7 +18,7 @@ idebug_function_args();
 ```
 <?php
     function hello($name, $age, $address){
-        idebug_function_args();
+        var_dump(idebug_function_args());
     }
     hello("miaojuanfeng", 20, "Guangzhou");
 ?>
