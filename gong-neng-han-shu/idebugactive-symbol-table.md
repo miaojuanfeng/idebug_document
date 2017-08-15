@@ -21,7 +21,7 @@ idebug_active_symbol_table();
     function hello($name){
         $a = "idebug";
         $b = 20;
-        idebug_active_symbol_table();
+        var_dump(idebug_active_symbol_table());
     }
     hello("miaojuanfeng");
     var_dump(idebug_active_symbol_table());
