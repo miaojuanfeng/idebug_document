@@ -8,7 +8,7 @@
 /**
 * Print active symbol table
 *
-* @return   null
+* @return   array
 */
 idebug_active_symbol_table();
 ```
