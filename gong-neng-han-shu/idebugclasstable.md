@@ -8,7 +8,7 @@
 /**
 * Print class table
 *
-* @return   null
+* @return   array
 */
 idebug_class_table();
 ```
