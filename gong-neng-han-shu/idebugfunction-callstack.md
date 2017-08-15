@@ -36,7 +36,16 @@ idebug_function_call_stack();
 输出：
 
 ```
-function_stack: Stack( 'f1' => 'f2' => 'f3' => 'f4' )
+array(4) {
+  [0]=>
+  string(2) "f1"
+  [1]=>
+  string(2) "f2"
+  [2]=>
+  string(2) "f3"
+  [3]=>
+  string(2) "f4"
+}
 ```
 
 函数f1调用了函数f2，函数f2调用了函数f3，函数f3调用了函数f4。
