@@ -8,7 +8,7 @@
 /**
 * Print function args
 *
-* @return   null
+* @return   array
 */
 idebug_function_args();
 ```
