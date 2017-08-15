@@ -18,16 +18,18 @@ idebug_included_files();
 ```
 <?php
     require "bug.php";
-    idebug_included_files();
+    var_dump(idebug_included_files());
 ?>
 ```
 
 输出：
 
 ```
-included_files_table: Array( 
-    '/home/mjf/Desktop/idebug.php', 
-    '/home/mjf/Desktop/bug.php' 
+array(2) {
+    [0]=>
+    string(29) '/home/mjf/Desktop/idebug.php', 
+    [1]=>
+    string(26) '/home/mjf/Desktop/bug.php' 
 )
 // idebug.php 是当前脚本文件
 ```
