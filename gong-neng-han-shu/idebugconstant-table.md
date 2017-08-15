@@ -18,7 +18,7 @@ idebug_constant_table();
 ```
 <?php
     define('IDEBUG', 'v123');
-    idebug_constant_table();
+    var_dump(idebug_constant_table());
 ?>
 ```
 
