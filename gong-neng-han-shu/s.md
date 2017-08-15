@@ -28,8 +28,10 @@ idebug_symbol_table();
 ```
 symbol_table: Array(7) { 
     // 省略内核变量...
-    'a' => string(6) "idebug",
-    'b' => int(20)
+    ["a"]=>
+    string(6) "idebug"
+    ["b"]=>
+    int(20)
 }
 ```
 
