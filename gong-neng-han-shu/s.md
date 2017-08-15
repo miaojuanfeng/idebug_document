@@ -26,7 +26,7 @@ idebug_symbol_table();
 输出：
 
 ```
-symbol_table: Array(7) { 
+array(9) {
     // 省略内核变量...
     ["a"]=>
     string(6) "idebug"
