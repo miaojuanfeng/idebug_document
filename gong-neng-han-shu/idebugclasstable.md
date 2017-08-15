@@ -46,12 +46,14 @@ array(146) {
     [1]=>
     string(12) "traversable"
     // 省略其他内核类...
-    'iteratoraggregate', 
-    'iterator', 
-    'arrayaccess', 
+    [51]=>
+    string(6) "finfo"
+    [52]=>
+    string(17) "jsonserializable"
     // 用户定义类
-    'person' 
-)
+    [145]=>
+    string(7) "person"
+}
 ```
 
 
