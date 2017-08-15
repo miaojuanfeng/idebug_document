@@ -1,6 +1,6 @@
 # idebug\_constant\_table
 
-功能： 打印输出常量表。
+功能： 返回常量表。
 
 声明：
 
@@ -19,7 +19,7 @@ idebug_constant_table();
 <?php
     define('IDEBUG', 'v123');
     idebug_constant_table();
-?>  
+?>
 ```
 
 输出：
