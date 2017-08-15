@@ -24,7 +24,7 @@ idebug_active_symbol_table();
         idebug_active_symbol_table();
     }
     hello("miaojuanfeng");
-    idebug_active_symbol_table();
+    var_dump(idebug_active_symbol_table());
 ?>
 ```
 
