@@ -1,4 +1,4 @@
-# idebug\_constant\_table - Segment Fault
+# idebug\_constant\_table - Segment
 
 功能： 返回常量表。
 
