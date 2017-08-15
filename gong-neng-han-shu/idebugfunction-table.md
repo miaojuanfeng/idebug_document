@@ -29,17 +29,19 @@ idebug_function_table();
 输出：
 
 ```
-function_table: Array( 
-    'zend_version', 
-    'func_num_args', 
-    'func_get_arg', 
+array(969) {
+    [0]=>
+    string(13) "zend_version"
+    [1]=>
+    string(14) "func_num_args"
     // 省略其他内核函数...
     'mysqli_affected_rows', 
     'mysqli_autocommit', 
     'mysqli_character_set_name', 
     // 用户自定义函数
-    'hello' 
-)
+    [968]=>
+    string(6) "hello"
+}
 ```
 
 
