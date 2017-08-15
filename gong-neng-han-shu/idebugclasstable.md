@@ -40,9 +40,11 @@ idebug_class_table();
 输出：
 
 ```
-class_table: Array( 
-    'stdclass', 
-    'traversable', 
+array(146) {
+    [0]=>
+    string(9) "stdclass"
+    [1]=>
+    string(12) "traversable"
     // 省略其他内核类...
     'iteratoraggregate', 
     'iterator', 
