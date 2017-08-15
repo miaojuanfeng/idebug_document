@@ -1,6 +1,6 @@
 # idebug\_symbol\_table
 
-功能：输出全局符号表中的所有变量，打印输出结果。
+功能：返回全局符号表中的所有变量。
 
 声明：
 
@@ -8,7 +8,7 @@
 /**
 * Print global symbol table
 *
-* @return   null
+* @return   array
 */
 idebug_symbol_table();
 ```
