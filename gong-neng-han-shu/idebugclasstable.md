@@ -1,6 +1,6 @@
 # idebug\_class\_table
 
-功能：遍历类符号表，打印输出全部已定义的类名称。因为内核类和用户自定义类都保存在同一张哈希表中，所以打印出的结果包含内核类和用户自定义类。
+功能：遍历类符号表，返回全部已定义的类名称。因为内核类和用户自定义类都保存在同一张哈希表中，所以打印出的结果包含内核类和用户自定义类。
 
 声明：
 
@@ -21,10 +21,10 @@ idebug_class_table();
         private $name;
         private $age;
         public function set_name($name){
-			$this->name = $name;
+            $this->name = $name;
         }
         public function set_age($age){
-			$this->age = $age;
+            $this->age = $age;
         }
         public function get_name(){
             return $this->name;
