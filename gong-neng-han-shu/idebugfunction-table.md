@@ -8,7 +8,7 @@
 /**
 * Print function table
 *
-* @return   null
+* @return   array
 */
 idebug_function_table();
 ```
@@ -18,8 +18,8 @@ idebug_function_table();
 ```
 <?php
     function hello($name){
-		$a = "idebug";
-		$b = 20;
+        $a = "idebug";
+        $b = 20;
         idebug_active_symbol_table();
     }
     idebug_function_table();
