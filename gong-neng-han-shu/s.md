@@ -19,7 +19,7 @@ idebug_symbol_table();
 <?php
     $a = "idebug";
     $b = 20;
-    idebug_symbol_table(); 
+    var_dump(idebug_symbol_table()); 
 ?>
 ```
 
