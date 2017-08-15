@@ -13,7 +13,7 @@
 
 * [idebug\_symbol\_table](gong-neng-han-shu/s.md)
 * [idebug\_active\_symbol\_table](gong-neng-han-shu/idebugactive-symbol-table.md)
-* [idebug\_constant\_table](gong-neng-han-shu/idebugconstant-table.md)
+* [idebug\_constant\_table - Segmentation fault: 11](gong-neng-han-shu/idebugconstant-table.md)
 * [idebug\_function\_table](gong-neng-han-shu/idebugfunction-table.md)
 * [idebug\_class\_table](gong-neng-han-shu/idebugclasstable.md)
 * [idebug\_included\_files](gong-neng-han-shu/idebugincluded-files.md)
